@@ -1,1 +1,1 @@
-# pocket-cors-proxy
+# pocket-cors-rss-proxy
