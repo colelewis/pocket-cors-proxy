@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/colelewis/pocket-cors-proxy/issues"
   },
-  "homepage": "https://github.com/colelewis/pocket-cors-proxy#readme"
+  "homepage": "https://github.com/colelewis/pocket-cors-proxy#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dom-parser": "^0.1.6",
+    "express": "^4.18.1"
+  }
 }
