@@ -1,0 +1,22 @@
+{
+  "name": "pocket-cors-proxy",
+  "version": "1.0.0",
+  "description": "Lightweight CORS proxy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colelewis/pocket-cors-proxy.git"
+  },
+  "keywords": [
+    "cors"
+  ],
+  "author": "Cole Lewis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colelewis/pocket-cors-proxy/issues"
+  },
+  "homepage": "https://github.com/colelewis/pocket-cors-proxy#readme"
+}
