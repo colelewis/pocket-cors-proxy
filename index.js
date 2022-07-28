@@ -15,7 +15,7 @@ app.get('/source/*', (req, res) => {
         .then(contents => parser.parseFromString(contents, "application/xml")) // parse XML from RSS URL into visible format
         .then(data => { // process fetched RSS data
             res.send(data);
-            console.log(`Request proxied! ✅\nRequest from: ${port} + ${req.ip} 📶, to proxy: ${req.params[0]}`);
+            console.log(`Request proxied! ✅\nRequest from: ${req.ip} 📶, to proxy: ${req.params[0]}`);
         })
         .catch(e => {
             console.error(e + '❌');
